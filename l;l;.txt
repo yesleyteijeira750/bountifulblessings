@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bountiful Blessings of Charlotte County Inc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bountiful Blessings of Charlotte County Inc is a 501(c)(3) nonprofit providing free food to low-income families in Charlotte County, FL.">
+  <style>
+    body {
+      background: #f8f4ee;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff7eb;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+      margin-top: 24px;
+    }
+    h1 {
+      color: #e28d35;
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 2.3em;
+    }
+    h2 {
+      color: #70a47b;
+      margin-top: 30px;
+      margin-bottom: 8px;
+      font-size: 1.35em;
+    }
+    h3 {
+      color: #e28d35;
+      margin-bottom: 6px;
+      font-size: 1.08em;
+    }
+    .photo-bar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+    .photo-bar img {
+      width: 160px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(112,164,123,0.09);
+      background: #eee;
+    }
+    .section {
+      margin-bottom: 24px;
+    }
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin: 30px 0 18px 0;
+    }
+    .cta-buttons a {
+      background: #e28d35;
+      color: #fff;
+      padding: 13px 26px;
+      border-radius: 32px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.04em;
+      box-shadow: 0 2px 8px rgba(226,141,53,0.08);
+      transition: background 0.2s;
+      border: none;
+      outline: none;
+    }
+    .cta-buttons a.cta-alt {
+      background: #70a47b;
+    }
+    .cta-buttons a.cta-beige {
+      background: #e8e2d2;
+      color: #333;
+    }
+    .cta-buttons a:hover {
+      background: #b76a1a;
+    }
+    .contact-info, .schedule, .transparency {
+      background: #e8e2d2;
+      border-radius: 8px;
+      padding: 13px 16px;
+      margin-bottom: 20px;
+      font-size: 1em;
+    }
+    ul {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      padding-left: 18px;
+    }
+    .mission {
+      background: #d8f3dc;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 18px;
+    }
+    .badge {
+      display: inline-block;
+      background: #ffeacc;
+      color: #e28d35;
+      font-weight: bold;
+      padding: 3px 12px;
+      border-radius: 16px;
+      font-size: 0.98em;
+      margin-right: 8px;
+    }
+    .ein {
+      font-size: 0.94em;
+      color: #666;
+      margin-left: 8px;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 9px;
+        margin-top: 7px;
+      }
+      h1 {
+        font-size: 1.4em;
+      }
+      .photo-bar img {
+        width: 95px;
+        height: 60px;
+      }
+      .cta-buttons a {
+        font-size: 0.97em;
+        padding: 10px 12px;
+      }
+      .contact-info, .schedule, .transparency, .mission {
+        padding: 8px 7px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bountiful Blessings of Charlotte County Inc</h1>
+    <div class="photo-bar">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Volunteers giving food">
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Food distribution">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Community helping">
+    </div>
+
+    <div class="section">
+      <span class="badge">501(c)(3) Nonprofit</span>
+      <span class="ein">EIN: 85‑0879746</span>
+      <div class="mission">
+        <strong>Mission:</strong> Fight hunger by collecting, storing, and distributing nutritious food—produce, dairy, proteins, dry goods—to those in need. We focus on logistics, supply, and distribution; all leadership is volunteer-operated.
+      </div>
+    </div>
+
+    <div class="section schedule">
+      <h2>🗓 Weekly Food Pantry</h2>
+      <ul>
+        <li><strong>When:</strong> Fridays, <b>10 AM–12 PM</b> (drive-through)</li>
+        <li><strong>Where:</strong> 1st United Methodist Church, 507 W Marion Ave, Punta Gorda, FL 33950</li>
+      </ul>
+      <small>*Please check Facebook for updates on holiday closures or schedule changes.</small>
+    </div>
+
+    <div class="section">
+      <h2>How to Get Involved</h2>
+      <ul>
+        <li><b>Volunteer:</b> Help unload, organize, and distribute food every Friday. (Contact via phone or in-person)</li>
+        <li><b>Donate:</b> Food items or funds—bring donations onsite or coordinate drop-offs.</li>
+        <li><b>Join our Facebook group:</b> Get updates on schedules, closures, and fundraising events.</li>
+      </ul>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="mailto:yesleyteijeira750@gmail.com?subject=I want to volunteer" class="cta-alt">Volunteer with us</a>
+      <a href="mailto:yesleyteijeira750@gmail.com?subject=Donate to Bountiful Blessings" class="cta-beige">Donate food or funds</a>
+      <a href="https://www.facebook.com/groups/1425414048189788/" target="_blank">Join our Facebook group</a>
+    </div>
+
+    <div class="section contact-info">
+      <h3>Contact & Location</h3>
+      <ul>
+        <li><b>Phone:</b> <a href="tel:9418838439">(941) 883‑8439</a></li>
+        <li><b>Punta Gorda Pantry:</b> 1st United Methodist Church, 507 W Marion Ave, Punta Gorda, FL</li>
+        <li><b>Official Address:</b> Port Charlotte (Alton Rd), FL</li>
+      </ul>
+    </div>
+
+    <div class="section transparency">
+      <h3>Financial Transparency</h3>
+      <ul>
+        <li>3-star rating on Charity Navigator (76%)</li>
+        <li>Registered nonprofit—100% volunteer board and hours</li>
+        <li>IRS Form 990: All leadership unpaid</li>
+      </ul>
+    </div>
+
+    <div style="text-align:center; margin-top:26px; color:#aaa; font-size:0.95em;">
+      <b>Custom Domain:</b> We support custom domains (e.g., bountifulblessingscc.org)<br>
+      <small>Set up via GitHub Pages (see “Settings”)</small>
+    </div>
+  </div>
+</body>
+</html>

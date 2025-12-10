@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -141,25 +141,31 @@
   <header>Bountiful Blessings of Charlotte County Inc</header>
 
   <main>
-    <section class="card" id="login-box" aria-label="Private access form">
-      <h1>Private Area</h1>
-      <p>Please enter the access password:</p>
-      <label for="password">Password</label>
-      <input type="password" id="password" name="password" placeholder="Enter password" autocomplete="current-password" />
-      <button type="button" id="access-button">Access</button>
+    <section class="card" id="login-box" aria-label="Formulario de acceso privado">
+      <h1>Área Privada</h1>
+      <p>Por favor, ingrese la contraseña de acceso:</p>
+      <label for="password">Contraseña</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Ingrese la contraseña"
+        autocomplete="current-password"
+      />
+      <button type="button" id="access-button">Acceder</button>
       <div class="error" id="error-message" role="alert" aria-live="polite"></div>
     </section>
 
-    <section class="hidden-content" id="private-content" aria-label="Private content">
+    <section class="hidden-content" id="private-content" aria-label="Contenido privado">
       <div class="content-container">
-        <h2>Food Pantry Schedule</h2>
+        <h2>Calendario de la Despensa de Alimentos</h2>
         <div class="presentation-container">
           <iframe
             src="https://docs.google.com/presentation/d/e/2PACX-1vQUlsBjGyFOn6K5lJwZuCkgcBwhWLnIDj-kbprtEZa-1rpYw3MlgtN_uyqnGt1mEbcjEghY4JMJepQr/pubembed?start=true&loop=true&delayms=5000"
             allowfullscreen
             referrerpolicy="no-referrer"
             loading="lazy"
-            title="Food Pantry Schedule"
+            title="Calendario de la Despensa de Alimentos"
           ></iframe>
         </div>
       </div>
@@ -198,7 +204,7 @@
         showContent();
       } else {
         errorMessage.innerHTML =
-          "⚠️ La contraseña que ingresó no es correcta. <br>Usted no está autorizado para acceder a esta sección del sitio.<br>Por favor, inténtelo nuevamente.";
+          "⚠️ La contraseña que ingresó no es correcta.<br>Usted no está autorizado para acceder a esta sección del sitio.<br>Por favor, inténtelo nuevamente.";
         passwordField.focus();
         passwordField.select();
       }
